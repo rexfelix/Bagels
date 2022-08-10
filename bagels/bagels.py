@@ -1,7 +1,7 @@
 from random import randint
 
 
-def main():
+def bagels():
     print("""
     세 자리 숫자를 맞추는 게임 입니다.
     추측한 숫자가 맞지만 위치가 틀리면 'Pico',
@@ -62,6 +62,3 @@ def main():
                     print("플레이 해 주셔서 감사 합니다.")
                 break
 
-
-if __name__ == "__main__":
-    main()
