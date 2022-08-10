@@ -1,7 +1,7 @@
 from random import randint
 
 
-def bagels():
+def bagels(_limit: int = 10):
     print("""
     세 자리 숫자를 맞추는 게임 입니다.
     추측한 숫자가 맞지만 위치가 틀리면 'Pico',
@@ -16,7 +16,7 @@ def bagels():
         answer = randint(100, 999)
         str_answer = str(answer)
 
-        for i in range(0, 10):
+        for i in range(0, _limit):
             _input = input(f"Guess  #{i + 1}: ")
             int_input = int(_input)
             while int_input < 100 or int_input >= 1000:
@@ -61,4 +61,3 @@ def bagels():
                     is_On = False
                     print("플레이 해 주셔서 감사 합니다.")
                 break
-
