@@ -2,7 +2,7 @@ import argparse
 from bagels.bagels import bagels
 
 
-def bagels_cmd():
+def bagels_play():
     parser = argparse.ArgumentParser(
         description="세 자리 수 맞추기 게임"
     )
