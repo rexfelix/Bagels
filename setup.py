@@ -19,7 +19,7 @@ setup(
         "Operating System::OS Independent",
     ],
     requires=[],
-    entrypoints={
+    entry_points={
         "console_scripts": ["bagels=bagels.cmd.bagels_cmd:bagels_play", ]
     },
 )
