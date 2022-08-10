@@ -16,6 +16,8 @@ pip install git+https://github.com/rexfelix/Bagels@master
 ```
 
 ### - CLI에서 게임 하기  
+위 방법으로 인스톨 한 후,  
+가상 환경 활성 한 상태에서  
 CLI(터미널)에서 bagels 명령을 실행 하면   
 파이썬 커멘드 라인을 실행 하지 않고 게임을 할 수 있다. 
 
