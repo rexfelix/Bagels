@@ -13,8 +13,9 @@
 
 
 1. 다음 명령을, 활성 시킨 python 가상환경 하에서 실행 한다.     
+```
 pip install git+https://github.com/rexfelix/Bagels@master
-
+```
 2. 터미널에서 bagels 명령을 실행 한다.
 
 
