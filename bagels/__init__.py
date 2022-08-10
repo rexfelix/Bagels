@@ -1,2 +1,2 @@
-from bagel.bagels import bagels
+from .bagels import *
 
