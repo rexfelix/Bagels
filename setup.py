@@ -20,6 +20,6 @@ setup(
     ],
     requires=[],
     entrypoints={
-        "console_scripts":["bagels-play=bagels.cmd.bagels_cmd:bagels_cmd",]
-    }
+        "console_scripts": ["bagels-play=bagels.cmd.bagels_cmd:bagels_cmd", ]
+    },
 )
